@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw; }
+
+main {
+  width: 100%; }
+
+section {
+  width: 100%;
+  min-height: 100vh; }
+
+#brick {
+  background-image: url("../img/background-image-brick.png"); }
+
+#wood {
+  background-image: url("../img/background-image-wood.png"); }
+
+#stone {
+  background-image: url("../img/background-image-stone.png"); }
+
+#concrete {
+  background-image: url("../img/background-image-concrete.png"); }
+
+#marble {
+  background-image: url("../img/background-image-marble.png"); }
+
+#drywall {
+  background-image: url("../img/background-image-drywall.png"); }
+
+#metal {
+  background-image: url("../img/background-image-metal.png"); }
+
+#glass {
+  background-image: url("../img/background-image-glass.png"); }
+
+/*# sourceMappingURL=styles.css.map */

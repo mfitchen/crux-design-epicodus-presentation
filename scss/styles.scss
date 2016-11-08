@@ -1,0 +1,82 @@
+$crux-green: #00A651;
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  // font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#brick {
+  background-image: url("../img/background-image-brick.png");
+}
+
+#wood {
+  background-image: url("../img/background-image-wood.png");
+}
+
+#stone {
+  background-image: url("../img/background-image-stone.png");
+}
+
+#concrete {
+  background-image: url("../img/background-image-concrete.png");
+}
+
+#marble {
+  background-image: url("../img/background-image-marble.png");
+}
+
+#drywall {
+  background-image: url("../img/background-image-drywall.png");
+}
+
+#metal {
+  background-image: url("../img/background-image-metal.png");
+}
+
+#glass {
+  background-image: url("../img/background-image-glass.png");
+}
+
+// #footer {
+//   background-color: #000000;
+// }
+
+// #logo {
+//   -webkit-animation: logoScale 2s infinite;
+// }
+//
+// @keyframes logoScale {
+//   0% {
+//     transform: scale(1);
+//   }
+//   50% {
+//     transform: scale(1.06125);
+//   }
+//   100% {
+//     transform: scale(1);
+//   }
+// }
+//
+// #next {
+//   opacity: 0;
+//   -webkit-animation: nextButton 3s infinite;
+// }
+//
+// @keyframes nextButton {
+//   100% { opacity: 1; }
+//   50%  { opacity: 0.5; }
+//   0%   { opacity: 1; }
+// }
