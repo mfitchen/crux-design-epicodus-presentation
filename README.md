@@ -29,7 +29,7 @@ Project Requirements & Objectives  | Complete
 _If you run into any issues or have questions, ideas, or concerns, please feel free to contact Marty at <a href="mailto:mfitchen@gmail.com">mfitchen@gmail.com</a>._
 _To review this project, please visit the GitHub repository or the live webpage:_
 
-* _Live Webpage: <a href="https://mfitchen.github.io/crux-design-presentation">mfitchen.github.io/crux-design-presentation</a>_
+* _Live Webpage: <a href="https://mfitchen.github.io/crux-design-epicodus-presentation">mfitchen.github.io/crux-design-epicodus-presentation</a>_
 
 ## Technologies Used
 
