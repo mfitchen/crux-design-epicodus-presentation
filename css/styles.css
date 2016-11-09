@@ -487,6 +487,9 @@ section {
         section div.content div.image a img {
           width: 63%;
           height: auto; }
+        section div.content div.image a img.logo {
+          width: 48%;
+          height: auto; }
 
 #intro {
   background-image: url("../img/background-image-intro.png"); }
