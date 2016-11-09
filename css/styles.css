@@ -493,6 +493,9 @@ section {
         section div.content div.image a img.macbookpros {
           width: 93%;
           height: auto; }
+        section div.content div.image a img.devices {
+          width: 73%;
+          height: auto; }
     section div.content a {
       width: 100%;
       height: auto;
