@@ -399,7 +399,49 @@ section {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section div.intro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    section div.intro h1 {
+      margin: 0 0 0 300px;
+      text-transform: uppercase;
+      color: lightgray;
+      font-size: 83px;
+      line-height: 68px;
+      letter-spacing: 3px; }
+      section div.intro h1 span.color-change {
+        color: #00A651;
+        text-shadow: 2px 2px 13px #333333; }
+    section div.intro h3 {
+      margin: 33px 0 0 305px;
+      color: lightgray;
+      font-size: 33px;
+      font-weight: normal;
+      line-height: 33px;
+      letter-spacing: 1px; }
+      section div.intro h3 a {
+        text-decoration: none;
+        color: lightgray; }
+        section div.intro h3 a:hover {
+          color: black;
+          text-shadow: 2px 2px 8px #00A651; }
+  section div.content {
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid tomato; }
+
+#intro {
+  background-image: url("../img/background-image-intro.png"); }
 
 #brick {
   background-image: url("../img/background-image-brick.png"); }

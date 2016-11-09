@@ -22,6 +22,62 @@ section {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div.intro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      margin: 0 0 0 300px;
+      text-transform: uppercase;
+      color: lightgray;
+      font-size: 83px;
+      line-height: 68px;
+      letter-spacing: 3px;
+      span.color-change {
+        color: $crux-green;
+        text-shadow: 2px 2px 13px #333333;
+      }
+    }
+    // div.line {
+    //   margin: 8px 0 18px 0;
+    //   width: 53vw;
+    //   border-top: 3px solid white;
+    // }
+    h3 {
+      margin: 33px 0 0 305px;
+      color: lightgray;
+      font-size: 33px;
+      font-weight: normal;
+      line-height: 33px;
+      letter-spacing: 1px;
+      a {
+        text-decoration: none;
+        color: lightgray;
+        &:hover {
+          color: black;
+          text-shadow: 2px 2px 8px $crux-green;
+        }
+      }
+    }
+  }
+  div.content {
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid tomato;
+  }
+}
+
+
+#intro {
+  background-image: url("../img/background-image-intro.png");
 }
 
 #brick {
