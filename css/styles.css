@@ -490,6 +490,18 @@ section {
         section div.content div.image a img.logo {
           width: 48%;
           height: auto; }
+        section div.content div.image a img.macbookpros {
+          width: 93%;
+          height: auto; }
+    section div.content a {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      section div.content a img {
+        width: 100%;
+        height: auto; }
 
 #intro {
   background-image: url("../img/background-image-intro.png"); }

@@ -127,6 +127,22 @@ section {
           width: 48%;
           height: auto;
         }
+        img.macbookpros {
+          width: 93%;
+          height: auto;
+
+        }
+      }
+    }
+    a {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }
