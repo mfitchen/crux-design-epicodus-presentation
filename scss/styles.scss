@@ -44,7 +44,7 @@ section {
       }
     }
     div.line {
-      margin: 33px 0 18px 0;
+      margin: 48px 0 18px 0;
       width: 48vw;
       border-top: 3px solid white;
     }
@@ -101,6 +101,9 @@ section {
         span.color-change {
           color: $crux-green;
           text-shadow: 2px 2px 13px #FFFFFF, -2px -2px 13px #FFFFFF;
+        }
+        span.lower-case {
+          text-transform: none;
         }
       }
     }

@@ -420,7 +420,7 @@ section {
         color: #00A651;
         text-shadow: 2px 2px 13px #333333; }
     section div.intro div.line {
-      margin: 33px 0 18px 0;
+      margin: 48px 0 18px 0;
       width: 48vw;
       border-top: 3px solid white; }
     section div.intro h3 {
@@ -470,6 +470,8 @@ section {
         section div.content div.copy h1 span.color-change {
           color: #00A651;
           text-shadow: 2px 2px 13px #FFFFFF, -2px -2px 13px #FFFFFF; }
+        section div.content div.copy h1 span.lower-case {
+          text-transform: none; }
     section div.content div.image {
       width: 50%;
       height: auto;
