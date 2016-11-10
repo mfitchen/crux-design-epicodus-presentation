@@ -413,15 +413,15 @@ section {
       margin: 0 0 0 300px;
       text-transform: uppercase;
       color: lightgray;
-      font-size: 83px;
-      line-height: 68px;
+      font-size: 63px;
+      line-height: 53px;
       letter-spacing: 3px; }
       section div.intro h1 span.color-change {
         color: #00A651;
         text-shadow: 2px 2px 13px #333333; }
     section div.intro div.line {
       margin: 48px 0 18px 0;
-      width: 48vw;
+      width: 63vw;
       border-top: 3px solid white; }
     section div.intro h3 {
       margin: 33px 0 0 305px;
@@ -462,8 +462,8 @@ section {
       section div.content div.copy h1 {
         text-transform: uppercase;
         color: #FFFFFF;
-        font-size: 83px;
-        line-height: 68px;
+        font-size: 63px;
+        line-height: 53px;
         letter-spacing: 3px;
         text-shadow: 2px 2px 13px #333333, -2px -2px 13px #333333; }
         section div.content div.copy h1 span.color-change {
@@ -535,7 +535,7 @@ section#bottom div.content div.image a {
       height: auto;
       display: flex;
       align-items: center;
-      margin-left: 83px;
+      margin-left: 18px;
       margin-bottom: 33px; }
       section#bottom div.content div.image a div.contact-info div.info img {
         width: 50px;
