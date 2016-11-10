@@ -148,6 +148,24 @@ section {
       }
     }
   }
+  div.questions {
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 18%;
+        height: auto;
+      }
+    }
+  }
 }
 
 
@@ -187,26 +205,27 @@ section {
   background-image: url("../img/background-image-glass.png");
 }
 
-// #footer {
-//   background-color: #000000;
-// }
+#bottom {
+  background-color: #000000;
+}
 
-// #logo {
-//   -webkit-animation: logoScale 2s infinite;
-// }
-//
-// @keyframes logoScale {
-//   0% {
-//     transform: scale(1);
-//   }
-//   50% {
-//     transform: scale(1.06125);
-//   }
-//   100% {
-//     transform: scale(1);
-//   }
-// }
-//
+
+#questionMark {
+  -webkit-animation: logoScale 5s infinite;
+}
+
+@keyframes logoScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 // #next {
 //   opacity: 0;
 //   -webkit-animation: nextButton 3s infinite;
